@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WormMine searching</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+	<section class="section">
+		<div class="container">
+			<h1 class="title">Searching on WormMine</h1>
+		</div>
+	</section>
+	<section class="section">
+		<div class="container">
+			<h1 class="title">Simple search</h1>
+	
+			There are two simple search boxes on WormMine's home page, one on the right of the tab bar and one just below it. Both 	
+			boxes generate similar results and any term can be searched, such as:
+			<br><br>
+	
+			<ul>
+				<li> - WormBase gene IDs, i.e. WBGene00000001</li>
+				<li> - Sequence ID, i.e. Y110A7A.10</li>
+				<li> - CDS Id, i.e. CDS:Y110A7A.10</li>
+				<li> - Gene symbol, i.e. aap-1</li>
+				<li> - GO term IDs, i.e. GO:000001</li>
+				<li> - Keywords, i.e. kinase, homeobox</li>
+			</ul>
+			<br><br>
+			
+				<img src="images/simple_search_1.png" alt="simple_search_1">
+			<br><br>
+			
+			Boolean searches (<b>AND</b>, <b>OR</b>, <b>AND NOT</b>, etc, all caps) and wildcards (<b>*</b>) are also available for 
+			some search terms, i.e. <b>encodes AND homeobox</b>, <b>worm AND NOT embryo</b>, <b>kin*</b>, among other possibilities.
+		
+			The result page will display all items related to the term searched, be it a gene, a CDS, a transcript, a protein, etc, 
+			and most of the links will lead to a WormBase main site pages for a more detailed perpective on the item.
+			<br><br>
+		
+
+			<img src="images/simple_search_result_1.png" alt="simple_search_result1">
+			<br><br>
+			<br><br>
+			<br><br>
+			<br><br>
+			<article class="media">
+				<div class="media-content">
+					<h4 class="subtitle">Example of a quick search with wildcard</h4>
+			
+					<img src="images/simple_search.gif" alt="simple_search" width="600" height="483">
+				</div>
+			</article>
+
+		</div>
+	</section>
+	<section class="section">
+		<div class="container">
+			<h1 class="title">Templates</h1>
+			Templates in WormMine are curated and pre-defined queries that represent some of the most usual searches performed in 
+			the site. Templates are the easiest way to obtain a large amount of information in WormMine, fast. At the moment there 
+			are	25 unique templates available in WormMine, providing well-structure queries for genes, proteins, chromosomes and  
+			other <i>C. elegans</i> genomic elements, strains, phenotypes, etc.
+			<br><br>
+			To run a template just click on the link in the index page and a page with options will be presented.
+			<br><br>
+			<img src="images/template_1.png" alt="template_1">
+			<br><br>
+			Select the desired query by clicking on it.
+			<br><br>
+			<img src="images/template_2.png" alt="template_2">
+			
+			
+			You can either modify some of the 
+			terms, constraints, etc and by clicking on <i>Show Results</i> will provide the results of the query in table format 
+			(how to manipulate this table can be found <a href="">here</a>)
+				
+			
+			<br><br>
+			<img src="images/template_3.png" alt="template_2" width="600" height="259">
+			<br><br>
+			<img src="images/template_4.png" alt="template_3" width="800" height="195">
+
+			<br><br>
+			<article class="media">
+				<div class="media-content">
+					<h4 class="subtitle">How to run a template in WormMine</h4>
+			
+					<img src="images/template.gif" alt="template" width="600" height="483">
+				</div>
+			</article>
+			
+		</div>
+	</section>
+</body>
+</html>

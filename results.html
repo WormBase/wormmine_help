@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WormMine results page</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+	
+	<section class="section">
+		<div class="container">
+			<h1 class="title is-1">WormMine Results Page</h1>
+		</div>
+	</section>
+	<section class="section">
+		<div class="container">
+			<h2 class="title is-2">Results Page table</h2>
+			
+			All WormMine query results are presented in a result page that contains a table. The number of resulting items is  
+			dependent on the query performed (number of rows) and the <a href="">model</a> classes selected (number of columns, 
+			templates have a pre-defined set of columns). Most items in the table showed in blue are active links to WormBase pages, 
+			where more information about the item can be found. Hovering over the item will display a popup with a some information
+			about the item.
+			<br><br>
+			
+			<img src="images/results1.png" alt="results1" width="142" height="242">
+			<br><br>
+			<img src="images/results2.png" alt="results2" width="606" height="198">
+			
+			
+		</div>
+	</section>
+	
+	<section class="section">
+		<div class="container">
+			<h2 class="title is-2">Column features</h2>
+			
+			Results table have a small toolbox available in each column that allows for some operations to be performed
+			<br><br>
+			<ul>
+				<li><img src="images/up_down.png" alt="up_down" width="18" height="15">  up and down arrows allow for sorting, ascending and descending</li>
+				<li><img src="images/x.png" alt="x" width="16" height="20"> x allows the column to be removed</li>
+				<li><img src="images/dotdotdot.png" alt="dotdotdot" width="14" height="23"> three dots toggle on and off the visibility of the column (it becomes an arrow when the columns is invisible <img src="images/arrow.png" alt="arrow" width="23" height="14">)</li>
+				<li><img src="images/funnel.png" alt="funnel" width="15" height="21"> funnel acts as a filter selector that can be added or removed  from the table. Multiple filters can be functional at the same time in different columns.</li>
+				<li><img src="images/bar_graph.png" alt="bar_graph" width="20" height="19"> bar graph presents statistics about the column, at the same time that allows for filters to be added</li>
+			</ul>
+			<br><br>
+			<article class="media">
+				<div class="media-content">
+					<h4 class="subtitle">Column toolbox in action</h4>
+			
+					<img src="images/table.gif" alt="table" width="900" height="609">
+				</div>
+			</article>
+			
+		</div>
+		<section class="section">
+		<div class="container">
+			<h2 class="title is-2">Table manipulation</h2>
+			
+			Results table also have a set of buttons, on top of the table, that provide some functionality on the results and also on exporting, saving and displaying contents. Some of these buttons open a dialog on top of the column with actions that can be performed and need to be dismissed to return to the result table.
+			<br><br>
+			<img src="images/table2.png" alt="table2" width="800" height="74">
+			
+			<br><br>
+			
+			
+			
+			<img src="images/table1.png" alt="table1" width="600" height="324">
+			<ul>
+				<li><b>Manage Columns</b> - allows the user to select column order, add and remove columns, add new columns that are not part 
+				of the query/template and sort the order of all columns in bulk.</li>
+				<li><b>Manage filters</b> - allows for multiple filter management at once, including constraints and filter logic. The dialog allows to include filters from fields and items that are not part of the query/template. </li>
+				<li><b>Manage relationships</b> - this works on excluding classes from the final result set, or making connections that are displayed in the results table to be optional on the screen, making related classes to appear nested (by using this feature a Undo button will the toggled on) </li>
+				<li><b>Save as List</b> - this button creates a list that can be saved by the user so it can be applied later on a different query or to be kept between releases, allowing for differences to be examined. One or multiple columns and rows can be selected, and a name has to be provided (to take full advantage, create an account and login first)</li>
+				<li><b>Generate Code</b> - query can be saved in multiple types of programming languages that take advantage of WormMine's API. Python, Perl, Java, Ruby, Javascript and XML are available</li>
+				<li><b>Export</b> - saves a text file with the items in the table. Columns and rows can be selected, headers can be added, at the same time as compression (useful for really long tables). Possibility of sending the results to a Galaxy or Genomespace service is available.</li>
+			</ul>
+			<br><br>
+			
+			Table display, like number of rows per page, current page, last and first pages can be controlled by the respective buttons on top of the table.
+			
+			<br><br>
+<!--
+			<article class="media">
+				<div class="media-content">
+					<h4 class="subtitle">Column toolbox in action</h4>
+			
+
+				</div>
+			</article>
+-->
+			
+		</div>
+
+		
+		
+	</section>
+	
+	
+</body>
+</html>
