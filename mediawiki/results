@@ -1,0 +1,42 @@
+==WormMine Results Page==
+
+===Results Page table===
+			
+All WormMine query results are presented as tables. The number of resulting items is  	dependent on the query performed (number of rows) and the[[Data Model]] classes selected (number of columns, templates have a pre-defined set of columns). Most items in the table showed in blue are active links to WormBase pages, 	where more information about the item can be found. Hovering over the item will display a popup with a some summary information about it.
+
+			
+[[File:results_1.png]]  [[File:results_2.png]]
+
+
+
+===Column features===
+			
+Results table have a small toolbox available in each column that allows for some operations to be performed
+
+[[File:images/toolbox.png]]
+			
+
+* [[File:up_down.png]]  up and down arrows allow for sorting, ascending and descending
+*[[File:x.png]] x allows the column to be removed
+*[[File:dotdotdot.png]] three dots toggle on and off the visibility of the column (it becomes an arrow when the columns is invisible [[File:arrow.png]])
+*[[File:funnel.png]] funnel acts as a filter selector that can be added or removed  from the table. Multiple filters can be functional at the same time in different columns
+*[[File:bar_graph.png]] bar graph presents statistics about the column, at the same time that allows for filters to be added
+
+===Table manipulation===
+			
+Results table also have a set of buttons, on top of the table, that provide some functionality on the results and also on exporting, saving and displaying contents. Some of these buttons open a dialog on top of the column with actions that can be performed and need to be dismissed to return to the result table.
+			
+[[File:table_1.png]]
+
+
+*'''Manage Columns''' - allows the user to select column order, add and remove columns, add new columns that are not part of the query/template and sort the order of all columns in bulk [[File:table_2.png]]
+				
+*'''Manage filters''' - allows for multiple filter management at once, including constraints and filter logic. The dialog allows to include filters from fields and items that are not part of the query/template [[File:table_3.png]]
+
+*'''Manage relationships''' - this works on excluding classes from the final result set, or making connections that are displayed in the results table to be optional on the screen, making related classes to appear nested (by using this feature a Undo button will the toggled on) [[File:table_4.png]]
+
+*'''Save as List''' - this button creates a list that can be saved by the user so it can be applied later on a different query or to be kept between releases, allowing for differences to be examined. One or multiple columns and rows can be selected, and a name has to be provided (to take full advantage, create an account and login first) [[File:table_5.png]]
+
+*'''Generate Code''' - query can be saved in multiple types of programming languages that take advantage of WormMine's API. Python, Perl, Java, Ruby, Javascript and XML are available [[File:table_6.png]]
+
+*'''Export''' - saves a text file with the items in the table. Columns and rows can be selected, headers can be added, at the same time as compression (useful for really long tables). Possibility of sending the results to a Galaxy or Genomespace service is available. Depending on the kind of results displayed, there are options to save the file as FASTA or other common formats [[File:table_7.png]]

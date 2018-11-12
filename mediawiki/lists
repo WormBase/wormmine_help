@@ -1,0 +1,36 @@
+==WormMine Lists==
+
+Lists in WormMine are a series of multiple items that can be eother created by the user or provided by WormMine. Lists can be used as search terms in new queries or templates, while they can be part of unions, intersections and subtractions from other lists. WormMine lists can accept most types of IDs present in the database, and they can be created from multiple types of IDs at the same time (i.e. Uniprot name and WormBase protein IDs). In order to take full advantage of lists, is recommended that the user is logged in their account.
+
+===Creating Lists===
+
+To create a list, click on the <i>Lists</i> tab on the main page. This will bring the first page of the List creation wizard in WormMine.  
+			
+[[File:list_1.png]]
+
+You can select the list type (from all the type of items in the database) and organism (majority of items are ''C. elegans''). Enter or paste the identifiers (alternatively a file can be uploaded) separated by comma, space, tab or new line and click on ''Create List''.
+
+[[File:list_2.png]]
+
+All the identifiers entered will be matched against the database and the second page of the wizard will be displayed.
+
+[[File:list_3.png]]
+
+A name can then be entered, and the list created by clicking on <i>Save a list of # items</i>. There's a summary of the matches found and you can download a CSV file with it. By saving the list, the final page of the wizard is shown. 
+
+
+[[File:list_4.png]]
+
+
+This page has similar functionalities as the query result table, and the final list can be manipulated, changed and other information can be entered, like a description for documentation, among other things. If you are logged in, the list will show in your  ''My Mine'' lists where it can be retrieved anytime.
+
+===Using a list===
+
+Lists can be used in different queries, as long as there correlation between the query and the type of items that compose a list. One example, is applying a public list available in ''WormMine to the Gene --> Allele Phenotypes template''
+			
+[[File:list_5.png]]
+			
+When the template is accessed, the list is disabled, allowing the user to choose a Gene Name to search. By clicking on the ''constraint to be'' the list dropdown is enabled, and the user can select a list to work as a constraint. By using the list in the query, the user has the option to search for a larger number of genes at the same time, and is not constrained by only one gene name as the normal template allows.
+			
+[[File:list_6.png]]
+

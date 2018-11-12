@@ -1,0 +1,44 @@
+=== Simple Search ===
+
+There are two simple search boxes on WormMine's home page, one on the right of the tab bar and one just below it. Both boxes generate similar results and any term can be searched, such as:
+
+* WormBase gene IDs, i.e. WBGene00000001</li>
+* Sequence ID, i.e. Y110A7A.10</li>
+* CDS Id, i.e. CDS:Y110A7A.10</li>
+* Gene symbol, i.e. aap-1</li>
+* GO term IDs, i.e. GO:000001</li>
+*  Keywords, i.e. kinase, homeobox</li>
+
+[[File:simple_search_1.png]]
+
+Boolean searches ('''AND''', '''OR''', '''AND NOT''', etc., all caps) and wildcards ('''*''') are also available for some search terms, i.e. '''encodes AND homeobox''', '''worm AND NOT embryo''', '''kin*''', among other possibilities.
+
+
+The result page will display all items related to the term searched, be it a gene, a CDS, a transcript, a protein, etc, and most of the links will lead to a WormBase main site pages for a more detailed perspective on the item.
+
+
+[[File:simple_search_result_1.png]]
+
+===Templates===
+
+Templates in WormMine are curated and pre-defined queries that represent some of the most usual searches performed in the site. Templates are the easiest way to obtain a large amount of information in WormMine, fast. At the moment there are 25 unique templates available in WormMine, providing well-structure queries for genes, proteins, chromosomes and other ''C. elegans'' genomic elements, strains, phenotypes, etc.
+
+To run a template just click on the link in the index page and a page with options will be presented.
+
+[[File:template_1.png]]
+
+
+Select the desired query by clicking on it.
+
+
+[[File:template_2.png]]
+
+			
+You can either modify some of the terms, constraints, etc and by clicking on <i>Show Results</i> will provide the results of the query in table format (how to manipulate this table can be found on the [[Query Results]] page)
+
+
+[[File:template_3.png]]
+
+
+[[File:template_4.png]]
+
